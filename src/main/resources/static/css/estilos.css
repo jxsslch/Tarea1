@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.login{
+    color: white;
+    align: center;
+}
+
+.textoCentrado{
+    text-align: center;
+}
+
+.header {
+    background-color: #5E8C5D;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.menu{
+    color: #1C4002;
+    padding: 8px 12px;
+    justify-content: space-between;
+    font-size: 25px;
+    list-style: none;
+}
+
+.contenido{
+    background-color: white;
+    position: fixed;
+    top: 82px;
+    left: 20%;
+    right: 0;
+    bottom: 20px;
+}
+
+#titulo{
+    color: #5E8C5D;
+    font-family: sans-serif;
+}
+
+.seleccionado{
+    background-color: #83A582;
+}
+
+.aside{
+    background-color: #F2F2F2;
+    position: fixed;
+    top: 82px;
+    left: 0;
+    bottom: 20px;
+    width: 20%;
+}
+
+#cuenta{
+   color: #5E8C5D;
+   font-size: 30px;
+    /* Las letras se ven mas gruesas */
+   font-weight: bold;
+   line-height: 50px;
+   align-content: center;
+}
+
+.cuenta-datos{
+    color: #1C4002;
+    padding: 8px 12px;
+    align-content: center;
+}
+
+#side{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 20px;
+    width: 50%;
+    background-color: #83A582;
+}
+
+#salir{
+    position: fixed;
+    top: 50px;
+    left: 450px;
+    right: 450px;
+    bottom: 50px;
+    width: 50%;
+    text-align: center;
+    background-color: #F2F2F2;
+}
+
+#right-side{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 20px;
+    width: 50%;
+    background-color: #F2F2F2;
+}
+
+.logo{
+    font-size: 30px;
+    /* Las letras se ven mas gruesas */
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    /* Si los elementos son mayores a esta cantidad de pixeles se esconden */
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+    line-height: 80px;
+}
+
+.menu-link{
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: #1C4002;
+    text-decoration: none;
+}
+
+.menu-link:hover{
+    background-color: #83A582;
+    transition: 0.5s;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.nav-menu-link:hover{
+    background-color: #1C4002;
+    transition: 0.5s;
+}
+
+/* los impares toman la configuracion indicada, el tbody se usa para que se aplique
+ solamente al cuerpo*/
+tbody tr:nth-child(odd){
+    background-color: #83A582;
+}
+
+.footer {
+    background-color: #1C4002;
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
